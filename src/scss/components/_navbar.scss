@@ -19,15 +19,15 @@
 
     .navbar-brand {
         font-family: $font-family-cursive;
-        font-weight: 400;
-        font-size: 3em;
+        font-weight: 500;
+        font-size: 3.8em;
         padding: 0.9rem 0;
     }
 
     .navbar-nav {
         .nav-item {
             &:hover {
-                color: fade($white, 80%);
+                color: fade($primary, 80%);
                 outline: none;
                 background-color: transparent;
             }
@@ -67,14 +67,14 @@
         }
 
         &.navbar-shrink {
-            background-color: $white;
+            background-color: $black;
 
             .navbar-brand {
                 color: $black;
             }
 
             .nav-link {
-                color: $black;
+                color: fade-out($white, 0.4);
                 padding: 1.5rem 1.5rem 1.25rem;
                 border-bottom: 0.25rem solid transparent;
 
